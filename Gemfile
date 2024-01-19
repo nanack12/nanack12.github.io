@@ -29,4 +29,11 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem "listen", ">= 3.2.1"
+
+#이것땜에 처음에 번등 설치 안됨
 gem "webrick", "~> 1.8"
+
+#목차 생성
+#gem 'jekyll-toc'
+#gem 'racc', '>= 1.7.3', '< 2'
+#gem 'nokogiri', '>= 1.16.0', '< 2'
