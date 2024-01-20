@@ -34,13 +34,21 @@ highlighter-theme: monokai
 date_format: "%Y-%M-%D"
 plugins:
   - jekyll-feed
+  - jekyll-toc
 category_dir: category/
 tag_dir: tag/
 
+#댓글기능
 utterances:
   repo: nanack12/nanack12.github.io
   issue-term: pathname
   theme: github-dark
+
+#목차 (toc) 기능
+markdown: kramdown
+kramdown:
+  input: GFM
+  toc: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

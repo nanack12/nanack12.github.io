@@ -10,6 +10,12 @@
 	</header>
 
 	<div class="post-content">
+		<div class ="toc"> 
+			<header>
+				<h4 class="toc_title"> < 목차 > </h4>
+			</header>
+			{%include toc.html html=content%}
+		</div>
 		{{ content }}
 	</div>
 
