@@ -37,6 +37,10 @@ plugins:
 category_dir: category/
 tag_dir: tag/
 
+utterances:
+  repo: nanack12/nanack12.github.io
+  issue-term: pathname
+  theme: github-dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -319,7 +319,13 @@ footer {
 	color: #ccc;
 }
 
+.utterances{
+	max-width: 100% !important;
+}
 
+#disqus_thread{
+	margin-top: 100px;
+}
 @media (max-width: 576px) {
 	article {
 		font-size: 0.9em;
